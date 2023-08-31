@@ -1,0 +1,19 @@
+div{
+    text-align: center;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.thank{
+    color: green;
+    font-size: 50px;
+}
+.submit{
+    color: blueviolet;
+    font-size: 50px;
+}
+.link{
+    color: rgba(19, 202, 248, 0.986);
+    font-size: 50px;
+    font-weight: bolder;
+    
+}

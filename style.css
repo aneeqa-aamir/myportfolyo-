@@ -1,0 +1,180 @@
+/* Reset default browser styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background-color: rgb(6, 6, 57) !important;
+  color: gold !important;
+}
+
+header {
+  background-color: rgb(2, 2, 43);
+  color: gold !important;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  margin-left: 10px;
+}
+
+nav ul li a {
+  color: gold !important;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+section h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.img2 {
+  float: right !important;
+  margin-left: 13px;
+}
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: flex;
+   text-align: left;
+  
+}
+#home {
+  text-align: left;
+  margin-right: 40px;
+}
+
+.home {
+  text-align: left;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: rgb(6, 6, 57);
+  color: gold !important;
+  padding: 10px;
+  text-align: center;
+}
+.col {
+  color: rgb(6, 6, 57) !important;
+  height: 60% !important;
+  width: 30% !important;
+  margin-left: 30px !important;
+  /* border-color: blue !important; */
+}
+
+.card {
+  border-color: rgb(6, 6, 57) !important;
+  /* background-color: rgb(217, 217, 233) !important; */
+}
+
+.card-img-top {
+  width: 100% !important;
+  /* height: 30% !important; */
+  object-fit: contain !important;
+}
+
+#contact{
+  text-align: left;
+}
+
+#contact h2{
+  text-align: left;
+}
+
+.contact{
+  /* display:inline-block; */
+ list-style: none;
+}
+
+.link{
+  color: gold;
+  text-decoration: none;
+}
+
+ul li{
+  display: inline;
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.img3{
+  position: relative;
+  left: 700px;
+  bottom: 120px;
+  height: 150px;
+}
+
+.progress-bar{
+  color: gold ! important;
+  font-weight: bolder;
+  font-size: 20px;
+
+}
+.progress{
+  height: 25px !important;
+}
+
+@media only screen and (max-width: 400px){
+
+  .img3{
+    position: static;
+    width: 350px;
+  }
+  #contact{
+    text-align: left;
+    margin: 0;
+  }
+  ul li{
+    display: inline;
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+  }
+
+  .col {
+    color: rgb(6, 6, 57) !important;
+    height: 30% !important;
+    width: 100% !important;
+    margin-left: 20px !important;
+    /* border-color: blue !important; */
+  }
+  
+
+}
+  
+
+
+ 

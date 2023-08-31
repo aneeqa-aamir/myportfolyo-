@@ -1,0 +1,39 @@
+*{
+    font-family: sans-serif;
+    background-color: whitesmoke;
+}
+ul{
+    background-color: blue;
+    position: fixed;
+}
+ul li{
+    list-style: none;
+    display:inline-block;
+    background-color: blue;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-weight: bolder;
+    
+}
+
+.first{
+    background-color: blue;
+    position: relative;
+    bottom: 1px;
+    left: 0;
+    width: 200px;
+    
+}
+
+.car{
+    display: inline-flex;
+    flex-direction: row;
+    margin: 10px 20px 10px 20px;
+    padding: 60px;
+   
+}
+
+
+
+    

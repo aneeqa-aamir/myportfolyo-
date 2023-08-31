@@ -1,0 +1,36 @@
+h3{
+    color: rgb(242, 115, 11);
+    font-size: 3rem;
+    text-align: center;
+}
+
+.main{
+    background-color: rgb(244, 183, 69);
+    position: absolute;
+    left: 40%;
+    height: 400px;
+    width: 300px;
+    margin-top: 40px;
+}
+ .btn{
+ 
+ padding-left: 5px;
+ margin-left: 30px;
+ height: 35px;
+ width: 40px;
+ align-items: center;
+ 
+ 
+ }
+
+ #result{
+    /* margin-bottom: 10px; */
+    width: 293px;
+    height: 35px;
+    position:absolute;
+    top: 120px;
+    
+    
+
+ }
+
